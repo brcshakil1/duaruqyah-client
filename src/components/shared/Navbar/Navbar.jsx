@@ -6,7 +6,7 @@ import { SlArrowLeft } from "react-icons/sl";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-center bg-white lg:bg-[#00000000] px-4 sticky">
       {/* logo */}
       <Image
         src={logo}

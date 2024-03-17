@@ -1,7 +1,19 @@
+import Dua from "./Dua/Dua";
+
 const Duas = () => {
   return (
-    <div>
-      <h2>Duas</h2>
+    <div className="max-h-[80vh] overflow-y-scroll">
+      <Dua />
+
+      <div className="mt-5">
+        <Dua />
+      </div>
+      <div className="mt-5">
+        <Dua />
+      </div>
+      <div className="mt-5">
+        <Dua />
+      </div>
     </div>
   );
 };

@@ -16,7 +16,7 @@ const SideBar = () => {
   return (
     <div
       className="bg-white rounded-t-[30px] lg:rounded-xl w-[100vw] lg:w-auto lg:min-h-[92vh]
-     overflow-y-auto flex flex-row lg:flex-col justify-between items-center"
+     overflow-y-auto flex flex-row lg:flex-col justify-between items-center z-50"
     >
       <Image src={logo} alt="duas" className="w-20 h-20 hidden lg:block" />
       <div className="flex flex-row lg:flex-col justify-between p-5 w-full items-center gap-4">
